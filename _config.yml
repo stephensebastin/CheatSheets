@@ -4,7 +4,6 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            Cheatsheets
@@ -12,6 +11,7 @@ tagline:          Code cheatsheets collection
 description:      "\"The only difference between science and screwing around is writing it down\""
 url:              http://karloespiritu.com/cheatsheets/
 baseurl:          "/cheatsheets/" # change to "/cheatsheets/" or whatever URL subdirectory in actual website
+gem:              [jekyll-paginate]
 
 author:
   name:           'Karlo Espiritu'
